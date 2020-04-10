@@ -43,7 +43,6 @@ function Home(props) {
                     isLoading={props.promotionLoading}
                     errMess={props.promotionErrMess}
                 />
-                    />
                 </div>
                 <div className="col-md m-1">
                     <RenderCard item={props.partner} />
